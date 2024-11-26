@@ -56,7 +56,7 @@ body{
     height: 25px;
 }
 
-#year{
+#grad-year-input{
     width:150px;
     display: flex;
     border:1px solid #ddd;
