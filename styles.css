@@ -59,7 +59,7 @@ body{
 	padding:5px;
 }
 
-#grad-year-input{
+#grad-year-select{
     width:150px;
     display: flex;
     border:1px solid #ddd;
