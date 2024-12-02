@@ -12,14 +12,14 @@
    <form class="row g-3">
   <div class="col-md-4">
     <label for="validationServer01" class="form-label">First name</label>
-    <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+    <input type="text" class="form-control is-invalid" id="validationServer01" value="" required>
     <div class="valid-feedback">
       First name required
     </div>
   </div>
   <div class="col-md-4">
     <label for="validationServer02" class="form-label">Last name</label>
-    <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
+    <input type="text" class="form-control is-invalid" id="validationServer02" value="" required>
     <div class="valid-feedback">
       Last name required
     </div>
@@ -27,8 +27,7 @@
   <div class="col-md-4">
     <label for="validationServerUsername" class="form-label">Email Address</label>
     <div class="input-group has-validation">
-      <span class="input-group-text" id="inputGroupPrepend3">@</span>
-      <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+      <input type="text" class="form-control is-invalid" id="validationServerUsername" value="xyz@abc.com" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
       <div id="validationServerUsernameFeedback" class="invalid-feedback">
         Please choose a username.
       </div>
